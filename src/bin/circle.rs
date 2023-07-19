@@ -23,6 +23,6 @@ fn main() {
 
     println!("The area of the circle with radius = {radius} is : {circle_area}");
     
-    //To run the programm, use :  cargo run 5  #5 is the value of radius
-    //For using -r short form -r : cargo run -r 5 
+    //To run the programm, use :  cargo run --bin circle 5  #5 is the value of radius
+    //For using -r short form -r : cargo run --bin circle -r 5 
 }
