@@ -1,7 +1,7 @@
 use clap::{Arg, App};
 
 fn main() {
-    let matches = App::new("greeting")
+    let matches = App::new("list_players")
         .arg(
             Arg::with_name("frist_player").
             index(1).
